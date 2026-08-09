@@ -10,12 +10,8 @@ import {formatCurrency} from '../utils/money.js';
 import {hello} from 'https://unpkg.com/supersimpledev@1.0.1/hello.esm.js';
 import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
 import {deliveryOptions, getDeliveryOption} from '../../data/deliveryOptions.js';
+import {renderPaymentSummary} from './paymentSummary.js';
 
-hello();
-
-const today = dayjs();
-const deliveryDate = today.add(7, 'days');
-console.log(deliveryDate.format('dddd, MMMM D'));
 
 export function renderOrderSummary() {
   let cartSummaryHTML = '';
@@ -142,6 +138,8 @@ export function renderOrderSummary() {
         const {productId, deliveryOptionId} = element.dataset;
         updateDeliveryOption(productId, deliveryOptionId);
         renderOrderSummary();
+
+        renderPaymentSummary();
       });
 
     });
@@ -160,6 +158,8 @@ export function renderOrderSummary() {
         container.remove();
 
         updateCartQuantity();
+
+        renderPaymentSummary();
       });
     });
 
@@ -212,6 +212,8 @@ export function renderOrderSummary() {
             updateQuantity(productId, newQuantity);
 
             updateCartQuantity();
+
+            renderPaymentSummary();
 
           }else{
             alert('Quantity must be ate least 1 and less than 1000.')
