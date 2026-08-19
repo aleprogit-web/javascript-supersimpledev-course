@@ -1,0 +1,23 @@
+[33mefcc7ee[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m add more tests to orderSummaryTests and cartTests
+[33m3333e1f[m add more tests in orderSummaryTests, moneyTests and in cartTests
+[33m309bb6c[m rename tests-jasmine folder to tests
+[33mb10dae6[m create automated tests for orderSummary
+[33mddb40d6[m create automated tests for addToCart
+[33m2cb7372[m remove default tests and add moneyTest
+[33mb45df50[m add jasmine testing framework
+[33m5629c2d[m create automated tests for formatCurrency
+[33m1a47181[m create calculateDeliveryDate function
+[33mc9a86f4[m renderCheckoutHeader with MVC
+[33m26cfc25[m make payment summary interactive
+[33mc4eacb9[m save data and generate HTML for payment summary
+[33mf286a34[m move order summary on itś own fle
+[33m0463c2e[m regenerate html when updating delivery option
+[33m88e3a4d[m make delivery options interactive
+[33m3ec925e[m save data and generate hhtml for delivery options
+[33me08e424[m checkout updates
+[33m86e9296[m cart update items
+[33m18c0e84[m had to copy the code, it was not working
+[33mbe059ec[m move addtocart into cart.js
+[33m020e86a[m import products from products.js
+[33md36eb4c[m use modules and import cart from cart.js
+[33mf76e89f[m make the cart quantity interactive
