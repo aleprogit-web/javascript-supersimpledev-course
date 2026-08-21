@@ -21,3 +21,7 @@
 [33m020e86a[m import products from products.js
 [33md36eb4c[m use modules and import cart from cart.js
 [33mf76e89f[m make the cart quantity interactive
+[33ma557c9f[m make add to cart interactive
+[33m78d5f49[m use products.js file
+[33mbcf29ca[m generate html with js
+[33m38de2f8[m add the starting files
