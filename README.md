@@ -52,7 +52,15 @@ The project also includes automated tests created with **Jasmine** to practice t
 
 ### 🎯 Purpose
 
-This repository is primarily a **learning project** and serves as a record of my progress while studying JavaScript.
+This repository is primarily a **learning project** and serves as a record of my progress while studying JavaScript. I 
+
+## 🙏 Credits
+
+This project was developed as part of the **JavaScript Course by SuperSimpleDev**.
+
+Special thanks to **SuperSimpleDev** for creating such a clear and practical course that helped me build a stronger foundation in JavaScript and web development.
+
+🔗 [SuperSimpleDev on GitHub](https://github.com/SuperSimpleDev)
 
 ---
 
@@ -109,3 +117,11 @@ O projeto também possui testes automatizados utilizando **Jasmine**, permitindo
 ### 🎯 Objetivo
 
 Este repositório é principalmente um **projeto de estudo** e serve como registro da minha evolução enquanto aprendo JavaScript.
+
+## 🙏 Créditos
+
+Este projeto foi desenvolvido como parte do **curso de JavaScript da SuperSimpleDev**.
+
+Agradeço à **SuperSimpleDev** pelo curso claro e prático, que me ajudou a desenvolver uma base mais sólida em JavaScript e desenvolvimento web.
+
+🔗 [SuperSimpleDev no GitHub](https://github.com/SuperSimpleDev)
